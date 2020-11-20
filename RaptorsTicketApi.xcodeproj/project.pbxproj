@@ -10,11 +10,18 @@
 		3407A20525675A150063D91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20425675A150063D91B /* AppDelegate.swift */; };
 		3407A20725675A150063D91B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20625675A150063D91B /* SceneDelegate.swift */; };
 		3407A20925675A150063D91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20825675A150063D91B /* ViewController.swift */; };
-		3407A20C25675A150063D91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20A25675A150063D91B /* Main.storyboard */; };
 		3407A20E25675A1A0063D91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20D25675A1A0063D91B /* Assets.xcassets */; };
 		3407A21125675A1A0063D91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */; };
 		3407A21C25675A1B0063D91B /* RaptorsTicketApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A21B25675A1B0063D91B /* RaptorsTicketApiTests.swift */; };
 		3407A22725675A1B0063D91B /* RaptorsTicketApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A22625675A1B0063D91B /* RaptorsTicketApiUITests.swift */; };
+		3407A23E2567737C0063D91B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A2382567737B0063D91B /* DetailViewController.swift */; };
+		3407A23F2567737C0063D91B /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A2392567737B0063D91B /* ManagerViewController.swift */; };
+		3407A2402567737C0063D91B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A23A2567737C0063D91B /* HistoryViewController.swift */; };
+		3407A2412567737C0063D91B /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A23B2567737C0063D91B /* ResetViewController.swift */; };
+		3407A2422567737C0063D91B /* InvoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A23C2567737C0063D91B /* InvoiceModel.swift */; };
+		3407A2432567737C0063D91B /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A23D2567737C0063D91B /* TicketModel.swift */; };
+		3407A249256774410063D91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3407A247256774410063D91B /* Main.storyboard */; };
+		3407A2622567BD970063D91B /* DataModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A2612567BD970063D91B /* DataModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		3407A20425675A150063D91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3407A20625675A150063D91B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3407A20825675A150063D91B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3407A20B25675A150063D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3407A20D25675A1A0063D91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3407A21025675A1A0063D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3407A21225675A1A0063D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3407A22225675A1B0063D91B /* RaptorsTicketApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorsTicketApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3407A22625675A1B0063D91B /* RaptorsTicketApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketApiUITests.swift; sourceTree = "<group>"; };
 		3407A22825675A1B0063D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3407A2382567737B0063D91B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3407A2392567737B0063D91B /* ManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		3407A23A2567737C0063D91B /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3407A23B2567737C0063D91B /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		3407A23C2567737C0063D91B /* InvoiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceModel.swift; sourceTree = "<group>"; };
+		3407A23D2567737C0063D91B /* TicketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		3407A248256774410063D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../IOS_Assignment1/Assignment1/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3407A2612567BD970063D91B /* DataModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,20 @@
 		3407A20325675A150063D91B /* RaptorsTicketApi */ = {
 			isa = PBXGroup;
 			children = (
+				3407A2382567737B0063D91B /* DetailViewController.swift */,
+				3407A23A2567737C0063D91B /* HistoryViewController.swift */,
+				3407A23C2567737C0063D91B /* InvoiceModel.swift */,
+				3407A2392567737B0063D91B /* ManagerViewController.swift */,
+				3407A23B2567737C0063D91B /* ResetViewController.swift */,
+				3407A23D2567737C0063D91B /* TicketModel.swift */,
 				3407A20425675A150063D91B /* AppDelegate.swift */,
 				3407A20625675A150063D91B /* SceneDelegate.swift */,
+				3407A247256774410063D91B /* Main.storyboard */,
 				3407A20825675A150063D91B /* ViewController.swift */,
-				3407A20A25675A150063D91B /* Main.storyboard */,
 				3407A20D25675A1A0063D91B /* Assets.xcassets */,
 				3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */,
 				3407A21225675A1A0063D91B /* Info.plist */,
+				3407A2612567BD970063D91B /* DataModelManager.swift */,
 			);
 			path = RaptorsTicketApi;
 			sourceTree = "<group>";
@@ -233,7 +254,7 @@
 			files = (
 				3407A21125675A1A0063D91B /* LaunchScreen.storyboard in Resources */,
 				3407A20E25675A1A0063D91B /* Assets.xcassets in Resources */,
-				3407A20C25675A150063D91B /* Main.storyboard in Resources */,
+				3407A249256774410063D91B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3407A23F2567737C0063D91B /* ManagerViewController.swift in Sources */,
 				3407A20925675A150063D91B /* ViewController.swift in Sources */,
 				3407A20525675A150063D91B /* AppDelegate.swift in Sources */,
+				3407A2422567737C0063D91B /* InvoiceModel.swift in Sources */,
+				3407A2402567737C0063D91B /* HistoryViewController.swift in Sources */,
+				3407A2622567BD970063D91B /* DataModelManager.swift in Sources */,
 				3407A20725675A150063D91B /* SceneDelegate.swift in Sources */,
+				3407A2412567737C0063D91B /* ResetViewController.swift in Sources */,
+				3407A23E2567737C0063D91B /* DetailViewController.swift in Sources */,
+				3407A2432567737C0063D91B /* TicketModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +324,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3407A20A25675A150063D91B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3407A20B25675A150063D91B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3407A21025675A1A0063D91B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3407A247256774410063D91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3407A248256774410063D91B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
