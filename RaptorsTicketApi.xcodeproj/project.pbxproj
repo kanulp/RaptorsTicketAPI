@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3407A20525675A150063D91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20425675A150063D91B /* AppDelegate.swift */; };
+		3407A20725675A150063D91B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20625675A150063D91B /* SceneDelegate.swift */; };
+		3407A20925675A150063D91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A20825675A150063D91B /* ViewController.swift */; };
+		3407A20C25675A150063D91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20A25675A150063D91B /* Main.storyboard */; };
+		3407A20E25675A1A0063D91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20D25675A1A0063D91B /* Assets.xcassets */; };
+		3407A21125675A1A0063D91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */; };
+		3407A21C25675A1B0063D91B /* RaptorsTicketApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A21B25675A1B0063D91B /* RaptorsTicketApiTests.swift */; };
+		3407A22725675A1B0063D91B /* RaptorsTicketApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407A22625675A1B0063D91B /* RaptorsTicketApiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3407A21825675A1B0063D91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3407A1F925675A150063D91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3407A20025675A150063D91B;
+			remoteInfo = RaptorsTicketApi;
+		};
+		3407A22325675A1B0063D91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3407A1F925675A150063D91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3407A20025675A150063D91B;
+			remoteInfo = RaptorsTicketApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3407A20125675A150063D91B /* RaptorsTicketApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaptorsTicketApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3407A20425675A150063D91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3407A20625675A150063D91B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3407A20825675A150063D91B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3407A20B25675A150063D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3407A20D25675A1A0063D91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3407A21025675A1A0063D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3407A21225675A1A0063D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3407A21725675A1B0063D91B /* RaptorsTicketApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorsTicketApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3407A21B25675A1B0063D91B /* RaptorsTicketApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketApiTests.swift; sourceTree = "<group>"; };
+		3407A21D25675A1B0063D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3407A22225675A1B0063D91B /* RaptorsTicketApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorsTicketApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3407A22625675A1B0063D91B /* RaptorsTicketApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketApiUITests.swift; sourceTree = "<group>"; };
+		3407A22825675A1B0063D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3407A1FE25675A150063D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A21425675A1B0063D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A21F25675A1B0063D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3407A1F825675A150063D91B = {
+			isa = PBXGroup;
+			children = (
+				3407A20325675A150063D91B /* RaptorsTicketApi */,
+				3407A21A25675A1B0063D91B /* RaptorsTicketApiTests */,
+				3407A22525675A1B0063D91B /* RaptorsTicketApiUITests */,
+				3407A20225675A150063D91B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3407A20225675A150063D91B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3407A20125675A150063D91B /* RaptorsTicketApi.app */,
+				3407A21725675A1B0063D91B /* RaptorsTicketApiTests.xctest */,
+				3407A22225675A1B0063D91B /* RaptorsTicketApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3407A20325675A150063D91B /* RaptorsTicketApi */ = {
+			isa = PBXGroup;
+			children = (
+				3407A20425675A150063D91B /* AppDelegate.swift */,
+				3407A20625675A150063D91B /* SceneDelegate.swift */,
+				3407A20825675A150063D91B /* ViewController.swift */,
+				3407A20A25675A150063D91B /* Main.storyboard */,
+				3407A20D25675A1A0063D91B /* Assets.xcassets */,
+				3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */,
+				3407A21225675A1A0063D91B /* Info.plist */,
+			);
+			path = RaptorsTicketApi;
+			sourceTree = "<group>";
+		};
+		3407A21A25675A1B0063D91B /* RaptorsTicketApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3407A21B25675A1B0063D91B /* RaptorsTicketApiTests.swift */,
+				3407A21D25675A1B0063D91B /* Info.plist */,
+			);
+			path = RaptorsTicketApiTests;
+			sourceTree = "<group>";
+		};
+		3407A22525675A1B0063D91B /* RaptorsTicketApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3407A22625675A1B0063D91B /* RaptorsTicketApiUITests.swift */,
+				3407A22825675A1B0063D91B /* Info.plist */,
+			);
+			path = RaptorsTicketApiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3407A20025675A150063D91B /* RaptorsTicketApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3407A22B25675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApi" */;
+			buildPhases = (
+				3407A1FD25675A150063D91B /* Sources */,
+				3407A1FE25675A150063D91B /* Frameworks */,
+				3407A1FF25675A150063D91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaptorsTicketApi;
+			productName = RaptorsTicketApi;
+			productReference = 3407A20125675A150063D91B /* RaptorsTicketApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3407A21625675A1B0063D91B /* RaptorsTicketApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3407A22E25675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApiTests" */;
+			buildPhases = (
+				3407A21325675A1B0063D91B /* Sources */,
+				3407A21425675A1B0063D91B /* Frameworks */,
+				3407A21525675A1B0063D91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3407A21925675A1B0063D91B /* PBXTargetDependency */,
+			);
+			name = RaptorsTicketApiTests;
+			productName = RaptorsTicketApiTests;
+			productReference = 3407A21725675A1B0063D91B /* RaptorsTicketApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3407A22125675A1B0063D91B /* RaptorsTicketApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3407A23125675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApiUITests" */;
+			buildPhases = (
+				3407A21E25675A1B0063D91B /* Sources */,
+				3407A21F25675A1B0063D91B /* Frameworks */,
+				3407A22025675A1B0063D91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3407A22425675A1B0063D91B /* PBXTargetDependency */,
+			);
+			name = RaptorsTicketApiUITests;
+			productName = RaptorsTicketApiUITests;
+			productReference = 3407A22225675A1B0063D91B /* RaptorsTicketApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3407A1F925675A150063D91B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3407A20025675A150063D91B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3407A21625675A1B0063D91B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3407A20025675A150063D91B;
+					};
+					3407A22125675A1B0063D91B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3407A20025675A150063D91B;
+					};
+				};
+			};
+			buildConfigurationList = 3407A1FC25675A150063D91B /* Build configuration list for PBXProject "RaptorsTicketApi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3407A1F825675A150063D91B;
+			productRefGroup = 3407A20225675A150063D91B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3407A20025675A150063D91B /* RaptorsTicketApi */,
+				3407A21625675A1B0063D91B /* RaptorsTicketApiTests */,
+				3407A22125675A1B0063D91B /* RaptorsTicketApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3407A1FF25675A150063D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407A21125675A1A0063D91B /* LaunchScreen.storyboard in Resources */,
+				3407A20E25675A1A0063D91B /* Assets.xcassets in Resources */,
+				3407A20C25675A150063D91B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A21525675A1B0063D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A22025675A1B0063D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3407A1FD25675A150063D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407A20925675A150063D91B /* ViewController.swift in Sources */,
+				3407A20525675A150063D91B /* AppDelegate.swift in Sources */,
+				3407A20725675A150063D91B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A21325675A1B0063D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407A21C25675A1B0063D91B /* RaptorsTicketApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3407A21E25675A1B0063D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407A22725675A1B0063D91B /* RaptorsTicketApiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3407A21925675A1B0063D91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3407A20025675A150063D91B /* RaptorsTicketApi */;
+			targetProxy = 3407A21825675A1B0063D91B /* PBXContainerItemProxy */;
+		};
+		3407A22425675A1B0063D91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3407A20025675A150063D91B /* RaptorsTicketApi */;
+			targetProxy = 3407A22325675A1B0063D91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3407A20A25675A150063D91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3407A20B25675A150063D91B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3407A20F25675A1A0063D91B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3407A21025675A1A0063D91B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3407A22925675A1B0063D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3407A22A25675A1B0063D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3407A22C25675A1B0063D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3407A22D25675A1B0063D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3407A22F25675A1B0063D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaptorsTicketApi.app/RaptorsTicketApi";
+			};
+			name = Debug;
+		};
+		3407A23025675A1B0063D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaptorsTicketApi.app/RaptorsTicketApi";
+			};
+			name = Release;
+		};
+		3407A23225675A1B0063D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaptorsTicketApi;
+			};
+			name = Debug;
+		};
+		3407A23325675A1B0063D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
+				INFOPLIST_FILE = RaptorsTicketApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanulp.RaptorsTicketApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaptorsTicketApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3407A1FC25675A150063D91B /* Build configuration list for PBXProject "RaptorsTicketApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3407A22925675A1B0063D91B /* Debug */,
+				3407A22A25675A1B0063D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3407A22B25675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3407A22C25675A1B0063D91B /* Debug */,
+				3407A22D25675A1B0063D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3407A22E25675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3407A22F25675A1B0063D91B /* Debug */,
+				3407A23025675A1B0063D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3407A23125675A1B0063D91B /* Build configuration list for PBXNativeTarget "RaptorsTicketApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3407A23225675A1B0063D91B /* Debug */,
+				3407A23325675A1B0063D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3407A1F925675A150063D91B /* Project object */;
+}
