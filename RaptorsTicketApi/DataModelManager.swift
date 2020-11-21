@@ -9,7 +9,6 @@ class JSONManager {
     
                 let url = URL(string: "https://raw.githubusercontent.com/kanulp/RaptorsTicketAPI/main/tickets_data.json")!
                         
-                       
                        // Create (define) a task; remember that we are just defining it
                        // After the multi-line statement executes, "task" exists,
                        // but it is in a "suspended" state

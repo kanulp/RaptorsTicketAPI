@@ -8,3 +8,12 @@
 * Show tickets data with json 
 * use of viewwillappear
 
+<table>
+
+<th>Screesnshot</th>
+
+<tr>
+<td>
+ <img src="https://raw.githubusercontent.com/kanulp/RaptorsTicketAPI/main/screenshots/ss1.png" width="600"   title="Screenshot 1">
+</td>
+</tr>
